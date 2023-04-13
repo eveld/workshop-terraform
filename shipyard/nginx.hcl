@@ -60,9 +60,9 @@ container "nginx" {
   }
 
   port {
-    local  = 443
-    remote = 443
-    host   = 443
+    local  = 80
+    remote = 80
+    host   = 80
   }
 
   volume {
