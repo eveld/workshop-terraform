@@ -10,12 +10,9 @@ template "nginx_config" {
   source = <<-EOF
     
     server {
-      listen 80;
-      listen [::]:80;
-
-      server_name 192.168.2.111;
-
-      return 302 https://$server_name$request_uri;
+      listen       80  default_server;
+      server_name  _;
+      return       444;
     }
 
     server {
