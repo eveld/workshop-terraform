@@ -124,7 +124,7 @@ exit_handler () {
         exit 0
         ;;
       254)
-        exit 0
+        exit 1
         ;;
     esac
 

@@ -4,10 +4,10 @@ docs "docs" {
   open_in_browser = false
 
   image {
-    name = "shipyardrun/docs:v0.6.2"
+    name = "shipyardrun/docs:v0.6.3"
   }
 
-  index_title = "Vault"
+  index_title = "Terraform"
 
   network {
     name = "network.dc1"

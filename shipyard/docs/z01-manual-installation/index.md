@@ -14,3 +14,7 @@ Install the latest version of Terraform for Linux (AMD64) by downloading it from
 Verify that the `terraform` binary is executable and check that it is the correct version by running `terraform version`.
 
 Use the `terraform help` command to explore the possibilities of the Terraform CLI.
+
+<ExecCommand target="vscode.container.shipyard.run" user="root" workdir="/root/terraform_basics" timeout={10}>
+  bash /var/lib/jumppad/terraform/manual_installation/validate.sh
+</ExecCommand>

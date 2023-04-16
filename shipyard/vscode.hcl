@@ -46,7 +46,7 @@ container "vscode" {
 
   volume {
     source      = "./terraform"
-    destination = "/root/code"
+    destination = "/root/terraform_basics"
   }
 
   volume {
@@ -55,7 +55,7 @@ container "vscode" {
   }
 
   volume {
-    destination = "/root/code/.vscode"
+    destination = "/root/terraform_basics/.vscode"
     source      = data("vscode")
   }
 }
